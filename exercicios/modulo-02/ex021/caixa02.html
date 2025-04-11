@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            text-align: center;
+            background-color: #FAE750;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(165, 165, 165);
+            padding: 3px;
+            box-shadow: 2px 2px 2px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main { 
+            background-color: #ADFA50;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        article {
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer {
+            background-image: linear-gradient(to right, #75E1EA, #FA3CBC, #613CFA, #9F3CFA, #FA3C4A, #EA8FFA);
+           color: black;
+           text-align: center;
+           padding: 10px;
+           margin: 0px;
+        }
+
+        footer > p {
+             margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            background-image: linear-gradient(to right, #E5DD4A, #E6B849, #BFE649, #E6CB49, #7EE649, #E6DB1C);
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+              <p>Esporte Ciência Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias são fundamental para informar as pessoas</h2>
+                <p>As notícias desempenham um papel fundamental na sociedade, pois nos mantêm informados sobre o que está acontecendo no mundo ao nosso redor. Elas nos ajudam a tomar decisões informadas sobre questões importantes, como eleições, políticas públicas e investimentos. Além disso, as notícias podem nos inspirar a agir em relação a problemas sociais e ambientais.</p>
+                <aside>
+                    <p>Artigo escrito por José de Sousa</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+         <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>
+    <p><a href="caixa01.html">Volte para a página 1</a></p>
+</body>
+</html>
